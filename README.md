@@ -14,24 +14,20 @@ For this task, I implemented several functions that utilized matrices (with valu
 The following functions were implemented:
 
 1. get average elevation(List[List[int]]) -> float
-
 The first parameter is an elevation map, m. Returns the average elevation across all the land
 in m.
 
 2. find peak(List[List[int]]) -> List[int]
-
 The first parameter is an elevation map, m. Returns the cell which contains the highest
 elevation point in m. For the purposes of us testing this function, you may assume that all
 values of m are unique (no two locations have equal elevations).
 
 3. is sink(List[List[int]], List[int]) -> bool
-
 The first parameter is an elevation map, m, the second parameter is a cell, c. Returns True
 if and only if c is a sink in m. Note if c does not exist in m (the values are outside m’s
 dimensions), this function returns False. See the previous section for the definition of a sink.
 
 4. find local sink(List[List[int]], List[int]) -> List[int]
-
 The first parameter is an elevation map, m, the second parameter is a cell, c, which exists in m.
 Returns the local sink of c. A local sink of c is the cell which water would flow to if it started
 at c. Assume if the current location isn’t a sink, water will always flow to the adjacent cell
@@ -40,7 +36,6 @@ that all values of m are unique (no two locations have equal elevations). See th
 some examples.
 
 5. can hike to(List[List[int]], List[int], List[int], int) -> bool
-
 The first parameter is an elevation map, m, the second is start cell, s which exists in m, the
 third is a destination cell, d, which exists in m, and the forth is the amount of available supplies.
 Under the interpretation that the top of the elevation map is north, you may assume that d is
@@ -56,7 +51,6 @@ directly to the East of them, they will only travel East, and if d is directly S
 only travel South.
 
 6. rotate map(List[List[int]]) -> None
-
 The parameter is an elevation map, m. Under the interpretation that the top of m is north,
 the function mutates m such that the top of m would now be viewed as east. See the docstring
 for some examples.
