@@ -38,9 +38,7 @@ some examples.
 The first parameter is an elevation map, m, the second is start cell, s which exists in m, the
 third is a destination cell, d, which exists in m, and the forth is the amount of available supplies.
 Under the interpretation that the top of the elevation map is north, you may assume that d is
-to the south-east of s (this means it could also be directly south, or directly east). The idea
-2
-is, if a hiker started at s with a given amount of supplies could they reach f if they used the
+to the south-east of s (this means it could also be directly south, or directly east). The idea is, if a hiker started at s with a given amount of supplies could they reach f if they used the
 following strategy. The hiker looks at the cell directly to the south and the cell directly to the
 east, and then travels to the cell with the lower change in elevation. They keep repeating this
 stratagem until they reach d (return True) or they run out of supplies (return False). Assume
