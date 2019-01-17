@@ -9,7 +9,7 @@ the matrix, would be the elevation at approximately the middle of the original 1
 section.
 
 
-For this task, I implemented several functions that utilized matrices (with values) to preform meaningful anaylysis on the area of the Earth's surface - which the matrix represents.
+For this task, I implemented several functions that utilized matrices (with values) to preform meaningful anaylysis on the area of the Earth's surface - which the matrix represents. The pdf provided provides more details regarding the assignment.
 
 The following functions were implemented:
 
